@@ -1,4 +1,4 @@
-import { MiddlewareFactory } from "@zero/types/middleware-types";
+import { MiddlewareFactory } from "@app/types/middleware-types";
 import { NextMiddleware, NextResponse } from "next/server";
 
 export function stackMiddlewares(

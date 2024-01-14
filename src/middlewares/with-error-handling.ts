@@ -1,5 +1,5 @@
-import { BaseError, ErrorCodes, ensureError } from "@zero/types/error-types";
-import { MiddlewareFactory } from "@zero/types/middleware-types";
+import { BaseError, ErrorCodes, ensureError } from "@app/types/error-types";
+import { MiddlewareFactory } from "@app/types/middleware-types";
 import { NextFetchEvent, NextRequest } from "next/server";
 
 export const withErrorHandler: MiddlewareFactory = (next) => {

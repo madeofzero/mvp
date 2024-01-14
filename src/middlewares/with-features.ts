@@ -1,4 +1,4 @@
-import { MiddlewareFactory } from "@zero/types/middleware-types";
+import { MiddlewareFactory } from "@app/types/middleware-types";
 import { NextFetchEvent, NextRequest } from "next/server";
 
 export const withFeatures: MiddlewareFactory = (next) => {
