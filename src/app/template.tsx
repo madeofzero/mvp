@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 export default function AppLayout(props: { children: React.ReactNode }) {
   const { children } = props;
 
-  return <main className={"min-h-screen overflow-scroll bg-background text-primary-foreground font-sans antialiased fixed w-full"}
+  return <main className={"min-h-screen overflow-scroll bg-background text-black font-sans antialiased fixed w-full"}
   >
     {children}
   </main>
